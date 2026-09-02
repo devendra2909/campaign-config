@@ -29,7 +29,7 @@
         "enabled": true,
         "description": "Pack discounts based on the number of items. The tiers are maintained in the database",
         "targeting": {
-          "postcodes": [4001, 3000],
+          "postcodes": [4001],
           "officeIds": []
         }
       }
