@@ -1,0 +1,38 @@
+{
+  "myPackSettings": {
+    "campaigns": [
+      {
+        "id": "mypack-dollar-off-tiers",
+        "campaignType": "VolumeDiscount",
+        "enabled": true,
+        "description": "$10 off at $100, $25 off at $200",
+        "targeting": {
+          "postcodes": [2000, 4014],
+          "officeIds": [2, 3]
+        },
+        "tiers": [
+          {
+            "minCartTotal": 100,
+            "discountType": "Amount",
+            "discountValue": 10
+          },
+          {
+            "minCartTotal": 200,
+            "discountType": "Amount",
+            "discountValue": 25
+          }
+        ]
+      },
+      {
+        "id": "mypack-pack-discount",
+        "campaignType": "PackDiscount",
+        "enabled": true,
+        "description": "Pack discounts based on the number of items. The tiers are maintained in the database",
+        "targeting": {
+          "postcodes": [4001],
+          "officeIds": []
+        }
+      }
+    ]
+  }
+}
