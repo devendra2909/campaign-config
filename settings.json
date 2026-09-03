@@ -20,6 +20,11 @@
             "minCartTotal": 200,
             "discountType": "Amount",
             "discountValue": 25
+          },
+	  {
+            "minCartTotal": 300,
+            "discountType": "Amount",
+            "discountValue": 30
           }
         ]
       },
