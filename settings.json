@@ -8,7 +8,7 @@
         "description": "$10 off at $100, $25 off at $200",
         "targeting": {
           "postcodes": [2000, 3000, 4300],
-          "officeIds": [2,3]
+          "officeIds": [2]
         },
         "tiers": [
           {
