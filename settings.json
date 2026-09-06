@@ -12,19 +12,19 @@
         },
         "tiers": [
           {
-            "minCartTotal": 100,
+            "minCartTotal": 120,
             "discountType": "Amount",
-            "discountValue": 10
+            "discountValue": 12
           },
           {
-            "minCartTotal": 200,
+            "minCartTotal": 150,
             "discountType": "Amount",
-            "discountValue": 25
+            "discountValue": 15
           },
 	  {
-            "minCartTotal": 300,
+            "minCartTotal": 200,
             "discountType": "Amount",
-            "discountValue": 30
+            "discountValue": 20
           }
         ]
       },
